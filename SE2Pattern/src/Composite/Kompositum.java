@@ -2,6 +2,9 @@ package Composite;
 
 public class Kompositum implements Component{
 
+	
+	
+	private Component[] components;
 	@Override
 	public void operation() {
 		// TODO Auto-generated method stub
@@ -13,5 +16,13 @@ public class Kompositum implements Component{
 		
 		
 	}
+	public void remove(Component C) {
+		
+		
+	}
+	public Component getChild(int index) {
+		
+		return null;
+	} 
 
 }
